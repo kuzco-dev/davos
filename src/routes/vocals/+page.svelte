@@ -1,1 +1,9 @@
-<div>vocal</div>
+<div class="flex h-full pt-6">
+  <aside class="h-full w-50 flex flex-col gap-1 px-4">
+    Voca
+  </aside>
+
+  <div class="flex-1 px-4">
+    de
+  </div>
+</div>

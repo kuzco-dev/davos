@@ -52,6 +52,16 @@
         Vocals
       </div>
     </button>
+    <button 
+      class="flex flex-col p-2 items-center rounded-md cursor-pointer hover:bg-card {isActive('/settings') ? 'bg-muted' : ''}"
+      onclick={() => navigateTo('/settings')}>
+      <div>
+        SE
+      </div>
+      <div>
+        Settings
+      </div>
+    </button>
     
     
   </nav>
