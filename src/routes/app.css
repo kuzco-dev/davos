@@ -4,14 +4,19 @@
 
   --background: #1a1b1e;
   --foreground: #f0f0f0;
-  --primary: rgb(255, 64, 23);
-  --border: rgb(224, 224, 224);
+
+  --card: #222327;
+  --muted : #2a2c33;
+  --primary: #ff7c5c;
+  --border: #33353a;
 
 }
 
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
   --color-primary: var(--primary);
   --color-border: var(--border);
 }
