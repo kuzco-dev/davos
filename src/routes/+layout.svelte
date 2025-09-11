@@ -16,13 +16,12 @@
   
 </script>
 
-<div class="relative">
-
-  <main>
+<div class="h-screen flex flex-col">
+  <main class="flex-1">
     <slot />
   </main>
 
-  <nav class="fixed flex items-center justify-center gap-6 bottom-0 left-0 right-0  py-2 border border-t border-border ">
+  <nav class="flex items-center justify-center gap-6 w-full  h-20 border border-t border-border ">
     <button 
       class="flex flex-col p-2 items-center rounded-md cursor-pointer hover:bg-card {isActive('/friends') ? 'bg-muted' : ''}"
       onclick={() => navigateTo('/friends')}>
