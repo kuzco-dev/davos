@@ -24,7 +24,7 @@
       onclick={() => setActiveComponent('AllFriends')}
     >
       <span>All friends</span>
-      <span>20</span>
+      <span>30</span>
     </button>
     <button 
       class="cursor-pointer flex justify-between w-full text-start rounded-md px-2 py-1 hover:bg-card"
